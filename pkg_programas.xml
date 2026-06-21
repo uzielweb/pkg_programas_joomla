@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="1.0">
+    <name>pkg_programas_joomla</name>
+    <packagename>programas_joomla</packagename>
+    <version>1.0.0</version>
+    <creationDate>June 2026</creationDate>
+    <author>Uzielweb</author>
+    <authorUrl>https://github.com/uzielweb</authorUrl>
+    <copyright>Copyright (C) 2026 Uzielweb. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <description>Pacote que instala o Componente e o Módulo de Programas Joomla integrados.</description>
+    <files folder="packages">
+        <file type="component" id="com_programas">com_programas</file>
+        <file type="module" id="mod_programas" client="site">mod_programas</file>
+    </files>
+</extension>
